@@ -1,0 +1,190 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration: none;
+
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height 1.6em;
+    color:black;
+    background-color:#6666FF;
+    
+}
+main{
+    padding:1rem;
+}
+header{
+    background:linear-gradient(135deg,red,green,blue); 
+    color:white;
+    /* text-align:right; */
+    padding:3rem, 3rem;
+    margin:2px;
+    /* display:flex; */
+    text-align:center;
+
+
+}
+header h1{
+    font-size:2rem;
+    text-align: left;
+    /* display:flex; */
+}
+ #profile img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    align-items: center;
+    justify-content: space-between;
+   
+
+}
+
+#profile{
+    text-align:center;
+    /* margin:10px; */
+    padding:10px;
+    border-radius: 10px;
+   
+}
+ header #profile,.name{
+    text-align:center;
+    border:10px solod red;
+    display:inline-block;
+    text-align:center;
+}
+.name{
+    text-align: center;
+    
+}
+h2{
+    color:black;
+    margin-bottom:1rem;
+}
+.ab{
+    background-color: green;
+    padding:10px;
+    color:white;
+}
+.experience-grid{
+    background-color: green;
+    padding:10px;
+    color:white;
+}
+ .project-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:1rem;
+}
+.project-card{
+    background-color: green;
+    color:white;
+    padding:1rem;
+    border-radius: 5px;
+
+}
+form{
+    display:flex;
+    flex-direction:column;
+    margin:auto;
+    max-width:500px;
+}
+.form-header{
+    text-align:center;
+    margin-bottom:1rem;
+    max-width:500px;
+    margin:auto;
+    color:#000000;
+
+}
+label{
+    margin-top:1rem;
+}
+name,email,message{
+    padding:0.5rem;
+    margin-top: 1rem;
+    border:1px solid white;
+}
+button{
+    margin-top:1rem;
+    background-color: orange;
+    color:white;
+    padding:5px;
+}
+footer{
+    text-align:center;
+    border-radius: 1px;
+    padding:1rem;
+    margin-top:1rem;
+    background-color: blue;;
+    color:white;
+    
+}
+nav ul,#social-link ul{
+    display:flex;
+    justify-content:center;
+    
+   
+    list-style: none;
+}
+nav ul li{
+    margin:5px;
+    color:white;
+    text-align:center;
+    
+
+}
+#social-link ul li{
+   /* gap:10px; */
+    margin:5px;
+    margin-bottom:10px;
+   /* color:red; */
+   text-align:center;
+}
+nav ul,#social-link ul{
+   color:white;
+   text-decoration: none;;
+}
+nav ul li a,#social-link ul li a{
+    color:white;
+}
+.box{
+    
+    display:grid;
+  
+    grid-template-columns:1fr 1fr 1fr;
+    gap:1rem;
+
+    
+}
+.b1{
+    
+    background-color: green;
+    color:white;
+    padding:1rem;
+    border-radius: 5px;
+    margin:10px;
+    
+}
+
+a:hover{
+    padding:2px;
+    color:orangered;
+}
+
+
+@media (max-width:600px) {
+nav ul,#social-link ul{
+    flex-direction: column;
+}
+.box{
+    grid-template-columns: 1fr;
+}
+header h1{
+    font-size: 1.5rem;
+}
+.project-grid{
+    grid-template-columns: 1fr;
+}
+}
